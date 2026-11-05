@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paul Mwangi - Contacts</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP MENU -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="experience.html">Personal Experience</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="hobbies.html">Hobbies</a>
+        </nav>
+    </header>
+
+    <!-- NEW: Name below the top menu, moving left to right -->
+    <div class="name-banner">
+        <h1>Paul Mwangi</h1>
+    </div>
+
+
+    <main>
+
+        <section class="content">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                <strong>Name:</strong> Paul Mwangi
+            </p>
+
+            <p>
+                <strong>Location:</strong> Kisii, Kenya
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                +254 114 384 724
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                njeripaul100@gmail.com
+            </p>
+
+
+            <!-- Email link -->
+            <p>
+                <a href="mailto:njeripaul100@gmail.com">
+                    Email me
+                </a>
+            </p>
+
+
+            <!-- Required horizontal rule -->
+            <hr>
+
+
+            <!-- NEW: Contact form (display only, no submission) -->
+            <form class="contact-form" onsubmit="return false;">
+
+                <label for="name">Enter your Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">E-mail address*:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="subject">Message Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Enter your Message*:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <label class="copy-option" for="copy">
+                    <input type="checkbox" id="copy" name="copy">
+                    E-mail a copy of this message to your own address.
+                </label>
+
+                <button type="submit">Send</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER: bottom menu + green copyright -->
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="experience.html">Personal Experience</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="hobbies.html">Hobbies</a>
+        </nav>
+        <p>&copy; 2026 Paul Mwangi</p>
+    </footer>
+
+</body>
+
+</html>
